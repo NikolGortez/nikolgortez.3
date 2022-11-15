@@ -1,0 +1,464 @@
+html,body
+{
+	background-image: url('99px_ru_wallpaper_346173_raiden_shogun__segun_rajden_iz_igri_genshin.png');
+	font-size: 15px;
+	font-family: Google Sans;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	
+	display: flex;
+	width: 100%;
+	background-color: rgb(105, 70, 143);
+	align-items: center;
+	box-shadow: 0px 0px 15px rgba(159, 93, 176, 0.6);
+	height: 150px;
+	margin-bottom: 40px;
+}
+
+.cap
+{
+	display: flex;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.logo
+{
+	width: 120px;
+	height: 120px;
+	align-items: center;
+}
+
+#name-header
+{
+	display: flex;
+	align-items: center;
+	color: rgb(137, 79, 158);
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.contaner
+{
+	display: flex;
+	flex-direction: column;
+}
+
+nav
+{
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+	font-weight: bold;
+	width: 50%;
+}
+
+nav a
+{
+	color: rgb(76, 57, 122);
+	padding-bottom: 2px;
+}
+
+nav a:hover
+{
+	color: #8057a4;
+	padding-bottom: 2px;
+	text-decoration: none;
+}
+
+.content
+{
+	color: rgb(132, 81, 154);
+	padding: 10px;
+	margin: 0 auto;
+	width: 50%;
+	font-size: 15px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #604190;
+}
+
+a:hover
+{
+	color: rgb(134, 86, 158);
+}
+
+.images
+{
+	width: 450px;
+	height: 300px;
+	box-shadow: 0px 0px 15px rgba(102, 67, 133, 0.6);
+}
+
+.tab
+{
+	display: flex;
+	order: 1;
+	flex-basis: 50%;
+	justify-content: center;
+	margin: 20px;
+}
+
+table
+{
+	color: rgb(107, 74, 160);
+	padding: 10px;
+	padding-top: 20px;
+	box-shadow: 0px 0px 15px rgba(136, 83, 167, 0.671);
+	margin-bottom: 30px;
+}
+
+td 
+{
+	padding: 20px;
+}
+
+
+.form
+{
+	display: flex;
+	order: 2;
+	justify-content: center;
+	flex-basis: 50%;
+	margin: 20px;
+}
+
+#form-text
+{
+	color: rgb(75, 64, 138);
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+form
+{
+	color: rgb(102, 76, 144);
+	margin: 0 auto;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 35px;
+	padding-top: 10px;
+	width: 300px;
+	box-shadow: 0px 0px 15px rgba(94, 45, 110, 0.6);
+}
+
+input
+{
+	color: rgb(131, 72, 158);
+	font-family: Google Sans;
+	background-color: transparent;
+	border: 2px solid transparent;
+}
+
+input:hover
+{
+	color: rgb(135, 71, 167);
+	font-family: Google Sans;
+	background-color: transparent;
+	border: 2px solid #38236f;
+}
+select
+{
+	color: rgb(101, 51, 135);
+	padding: 10px;
+	font-family:Google Sans;
+	background-color: transparent;
+	border: 2px solid transparent;
+	height: 80px;
+}
+
+textarea
+{
+	color: rgb(149, 76, 160);
+	padding: 10px;
+	font-family: Google Sans;
+	background-color: transparent;
+	border: 2px solid transparent;
+}
+
+#bot 
+{
+	color: rgb(116, 70, 152);
+	margin-top: 30px;
+	font-family: Google Sans;
+	background-color: transparent;
+	border: 2px solid rgb(114, 68, 163);
+}
+
+#bot:hover
+{
+	color: #7d4d9d;
+	margin-top: 30px;
+	font-family: Google Sans;
+	background-color: transparent;
+	border: 2px solid #6f3f95;
+}
+
+footer
+{
+	margin-top: 30px;
+	background-color: rgb(113, 73, 133);
+	font-weight: bold;
+	flex-basis: 100%;
+	height: 60px;
+	padding-top: 50px;
+	box-shadow: 0px 0px 15px rgba(114, 74, 149, 0.6);
+}
+
+#foot 
+{
+	color: rgb(70, 30, 86);
+	margin-left: 50px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+
+@media screen and (max-device-width: 500px)
+{
+	html,body
+	{
+		background-image: url('99px_ru_wallpaper_346173_raiden_shogun__segun_rajden_iz_igri_genshin.png');
+		font-family: Google Sans;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	header
+	{
+		display: flex;
+		width: 100%;
+		background-color: rgb(114, 69, 141);
+		box-shadow: 0px 0px 15px rgba(134, 79, 168, 0.6);
+		height: 270px;
+		margin-bottom: 50px;
+	}
+
+	.cap
+	{
+		display: flex;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.logo
+	{
+		width: 270px;
+		height: 270px;
+		align-items: center;
+	}
+
+	#name-header
+	{
+		display: flex;
+		align-items: center;
+		color: rgb(80, 26, 101);
+		font-weight: bold;
+		font-size: 45px;
+	}
+
+	.contaner
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	nav
+	{
+		display: flex;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		flex-direction: column;
+		font-size: 45px;
+		font-weight: bold;
+		width: 80%;
+	}
+
+	nav a
+	{
+		color: rgb(135, 84, 169);
+		padding-bottom: 20px;
+	}
+
+	nav a:hover
+	{
+		color: #86509d;
+		padding-bottom: 20px;
+		text-decoration: none;
+	}
+
+	.content
+	{
+		color: rgb(155, 88, 177);
+		padding: 10px;
+		margin: 0 auto;
+		width: 80%;
+		font-size: 28px;
+	}
+
+	.images 
+	{
+		width: 600px;
+		height: 400px;
+		box-shadow: 0px 0px 15px rgba(139, 78, 173, 0.6);
+	}
+
+	a
+	{
+		text-decoration: none;
+		color: #744381;
+	}
+
+	a:hover
+	{
+		color: rgb(89, 48, 113);
+	}
+
+
+	.tab
+	{
+		display: flex;
+		order: 2;
+		flex-basis: 80%;
+		justify-content: center;
+		margin: 20px;
+	}
+
+	table
+	{
+		font-size: 35px;
+		width: 78%;
+		color: rgb(99, 54, 138);
+		padding: 15px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		box-shadow: 0px 0px 15px rgba(129, 87, 150, 0.6);
+		margin-bottom: 30px;
+	}
+
+	td 
+	{
+		padding: 10px;
+	}
+
+	.form
+	{
+		display: flex;
+		order: 1;
+		justify-content: center;
+		flex-basis: 80%;
+		margin: 20px;
+		font-size: 35px;
+	}
+
+	#form-text
+	{
+		display: flex;
+		justify-content: center;
+		font-size: 65px;
+		font-weight: bold;
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	form
+	{
+		color: rgb(143, 108, 169);
+		margin: 0 auto;
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-bottom: 35px;
+		padding-top: 10px;
+		width: 70%;
+		box-shadow: 0px 0px 15px rgba(110, 73, 129, 0.6);
+	}
+
+	input
+	{
+		font-size: 35px;
+		color: rgb(135, 93, 157);
+		font-family: Google Sans;
+		background-color: transparent;
+		border: 2px solid transparent;
+	}
+
+	input:hover
+	{
+		font-size: 35px;
+		color: rgb(98, 77, 144);
+		font-family: Google Sans;
+		background-color: transparent;
+		border: 2px solid #6a448b;
+	}
+
+	select
+	{
+		font-size: 35px;
+		color: rgb(107, 59, 135);
+		padding: 10px;
+		font-family: Google Sans;
+		background-color: transparent;
+		border: 2px solid transparent;
+		height: 60px;
+	}
+
+	textarea
+	{
+		font-size: 35px;
+		padding: 10px;
+		color: rgb(94, 59, 122);
+		font-family: Google Sans;
+		background-color: transparent;
+		border: 2px solid transparent;
+	}
+
+	#bot 
+	{
+		color: rgb(82, 54, 107);
+		margin-top: 30px;
+		font-family: Google Sans;
+		background-color: transparent;
+		border: 2px solid rgb(106, 80, 141);
+	}
+
+	#bot:hover
+	{
+		color: #6d4687;
+		margin-top: 30px;
+		font-family: Google Sans;
+		background-color: transparent;
+		border: 2px solid #795985;
+	}
+
+	footer
+	{
+		display: flex;
+		width: 100%;
+		background-color: rgb(164, 116, 185);
+		box-shadow: 0px 0px 15px rgba(77, 60, 126, 0.6);
+		height: 120px;
+	}
+
+	#foot 
+	{
+		margin-top: 20px;
+		color: rgb(144, 86, 159);
+		margin-left: 50px;
+		font-weight: bold;
+		font-size: 38px;
+	}
+}
