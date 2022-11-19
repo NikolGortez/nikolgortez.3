@@ -19,6 +19,10 @@ header
 	height: 150px;
 	margin-bottom: 40px;
 }
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: rgb(61, 74, 160);
+}
 
 .cap
 {
@@ -199,27 +203,27 @@ textarea
 
 #bot:hover
 {
-	color: #7d4d9d;
+	color: #513067;
 	margin-top: 30px;
 	font-family: Google Sans;
 	background-color: transparent;
-	border: 2px solid #6f3f95;
+	border: 2px solid #6b458b;
 }
 
 footer
 {
 	margin-top: 30px;
-	background-color: rgb(113, 73, 133);
+	background-color: rgb(118, 82, 137);
 	font-weight: bold;
 	flex-basis: 100%;
 	height: 60px;
 	padding-top: 50px;
-	box-shadow: 0px 0px 15px rgba(114, 74, 149, 0.6);
+	box-shadow: 0px 0px 15px rgba(166, 129, 197, 0.6);
 }
 
 #foot 
 {
-	color: rgb(70, 30, 86);
+	color: rgb(87, 48, 103);
 	margin-left: 50px;
 	font-weight: bold;
 	font-size: 20px;
@@ -227,7 +231,7 @@ footer
 
 
 
-@media screen and (max-device-width: 500px)
+@media screen and (max-device-width: 600px)
 {
 	html,body
 	{
@@ -246,6 +250,9 @@ footer
 		box-shadow: 0px 0px 15px rgba(134, 79, 168, 0.6);
 		height: 270px;
 		margin-bottom: 50px;
+	}
+	::-webkit-input-placeholder {
+		color: rgb(61, 74, 160);
 	}
 
 	.cap
@@ -290,20 +297,20 @@ footer
 
 	nav a
 	{
-		color: rgb(135, 84, 169);
+		color: rgb(53, 25, 71);
 		padding-bottom: 20px;
 	}
 
 	nav a:hover
 	{
-		color: #86509d;
+		color: #491c5d;
 		padding-bottom: 20px;
 		text-decoration: none;
 	}
 
 	.content
 	{
-		color: rgb(155, 88, 177);
+		color: rgb(62, 33, 88);
 		padding: 10px;
 		margin: 0 auto;
 		width: 80%;
@@ -314,18 +321,18 @@ footer
 	{
 		width: 600px;
 		height: 400px;
-		box-shadow: 0px 0px 15px rgba(139, 78, 173, 0.6);
+		box-shadow: 0px 0px 15px rgba(203, 164, 223, 0.6);
 	}
 
 	a
 	{
 		text-decoration: none;
-		color: #744381;
+		color: #5c3975;
 	}
 
 	a:hover
 	{
-		color: rgb(89, 48, 113);
+		color: rgb(47, 17, 64);
 	}
 
 
@@ -342,11 +349,11 @@ footer
 	{
 		font-size: 35px;
 		width: 78%;
-		color: rgb(99, 54, 138);
+		color: rgb(29, 9, 46);
 		padding: 15px;
 		padding-top: 30px;
 		padding-bottom: 30px;
-		box-shadow: 0px 0px 15px rgba(129, 87, 150, 0.6);
+		box-shadow: 0px 0px 15px rgba(155, 136, 197, 0.6);
 		margin-bottom: 30px;
 	}
 
@@ -384,13 +391,13 @@ footer
 		padding-bottom: 35px;
 		padding-top: 10px;
 		width: 70%;
-		box-shadow: 0px 0px 15px rgba(110, 73, 129, 0.6);
+		box-shadow: 0px 0px 15px rgba(167, 148, 214, 0.6);
 	}
 
 	input
 	{
 		font-size: 35px;
-		color: rgb(135, 93, 157);
+		color: rgb(68, 32, 87);
 		font-family: Google Sans;
 		background-color: transparent;
 		border: 2px solid transparent;
@@ -399,16 +406,16 @@ footer
 	input:hover
 	{
 		font-size: 35px;
-		color: rgb(98, 77, 144);
+		color: rgb(42, 23, 83);
 		font-family: Google Sans;
 		background-color: transparent;
-		border: 2px solid #6a448b;
+		border: 2px solid #280e3f;
 	}
 
 	select
 	{
 		font-size: 35px;
-		color: rgb(107, 59, 135);
+		color: rgb(64, 41, 78);
 		padding: 10px;
 		font-family: Google Sans;
 		background-color: transparent;
@@ -428,20 +435,20 @@ footer
 
 	#bot 
 	{
-		color: rgb(82, 54, 107);
+		color: rgb(199, 164, 229);
 		margin-top: 30px;
 		font-family: Google Sans;
 		background-color: transparent;
-		border: 2px solid rgb(106, 80, 141);
+		border: 2px solid rgb(33, 7, 67);
 	}
 
 	#bot:hover
 	{
-		color: #6d4687;
+		color: #2e193c;
 		margin-top: 30px;
 		font-family: Google Sans;
 		background-color: transparent;
-		border: 2px solid #795985;
+		border: 2px solid #5a3866;
 	}
 
 	footer
@@ -456,7 +463,7 @@ footer
 	#foot 
 	{
 		margin-top: 20px;
-		color: rgb(144, 86, 159);
+		color: rgb(82, 40, 92);
 		margin-left: 50px;
 		font-weight: bold;
 		font-size: 38px;
